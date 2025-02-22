@@ -1,0 +1,17 @@
+product:
+  type: lib
+  platforms: [jvm]
+
+dependencies:
+  - io.ktor:ktor-client-core:3.0.2
+  - io.ktor:ktor-client-cio:3.0.2
+
+test-dependencies:
+  - org.slf4j:slf4j-simple:2.0.16
+
+settings:
+  kotlin:
+    serialization: json
+
+test-settings:
+  junit: junit-5
